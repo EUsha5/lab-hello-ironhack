@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+.App {
+  color:white;
+  background-image: url('/images/react-logo.svg');
+  background-color: #1e2536;
+  height: 65vh;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vw;
+}
+
+h1 {
+  font-size: 4em;
+  width: 23vw;
+}
+
+.Ninja {
+  font-size: 24px;
+  width: 19vw;
+  margin-left: 0;
+  margin-bottom: 3vh;
+  font-weight: 100;
+}
+
+button {
+  border-radius: 4px;
+  height: 6vh;
+  width: 8vw;
+  border-color: white;
+  text-align: center;
+  padding-bottom: 2vh;
+}
+
+.badger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subDiv{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 10vw;
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0 auto;
+}
